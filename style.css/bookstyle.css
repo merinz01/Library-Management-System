@@ -1,0 +1,30 @@
+ body{
+   overflow-y: scroll;
+   overflow-x: hidden;
+ }
+ 
+ .row{
+    margin: 50px 0;
+}
+body{
+   background-image: url("../images/bookbg.jpg");
+   background-size:cover;
+   background-repeat: no repeat; 
+}
+section
+   {
+    margin-top: 0px;
+    height: 100%;
+    width: 100%;
+    position: absolute; 
+    display: flex;
+   }
+   .card-block{
+      transition: .5s ease;
+      cursor: pointer;
+      background-image: url("../images/bgcard.jpg");
+   }
+   .card:hover{
+      transform: scale(1.075);
+      box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.6)
+   }

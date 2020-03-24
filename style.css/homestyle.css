@@ -1,0 +1,34 @@
+  #lib
+ {
+    border-style: none ;
+    border-color: rgb(0, 0, 0);
+    background-color: rgb(40, 142, 238);
+    padding: 20px 20px 20px 20px;
+    color:white;
+    text-size-adjust: 20px ;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
+}
+
+section
+   {
+    margin-top: 0px;
+    background-image: url("../images/background.jpg");
+    background-size:cover;
+    height: 80%;
+    width: 100%;
+    display: block;
+    position: absolute; 
+    display: flex;
+    background-repeat: no repeat;
+   }
+.box
+   {
+    height: 300px;
+    width: 450px;
+    background-color: rgb(231, 231, 241);
+    margin: 40px auto;
+    opacity: .5;
+    color: rgb(3, 3, 97);
+    
+    }
